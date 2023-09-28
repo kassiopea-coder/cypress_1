@@ -1,0 +1,20 @@
+{
+  "name": "cypress_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "web:headed": "cypress run -b chrome --headed -C cypress.config.js",
+    "web:headless": "cypress run -b chrome --headless -C cypress.config.js",
+    "mobile:headed": "cypress run -b chrome --headed -C mobile.config.js",
+    "mobile:headless": "cypress run -b chrome --headless -C mobile.config.js",
+    "notebook:headed": "cypress run -b chrome --headed -C notebook.config.js",
+    "notebook:headless": "cypress run -b chrome --headless -C notebook.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  }
+}

@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+/node_modules/
+/public/
+/src/
+.env
+.eslint
+server.js
+yarn.lock
+
+user.js
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+package-lock.json
+
+# Local History for Visual Studio Code
+.history/
